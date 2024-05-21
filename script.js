@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <footer class="footer-container">
         <div class="left-content">
           <!-- 左側の要素 -->
-          <p id="footer">カニ娘（蟹ヶ谷　ムサコ）© 立花左伝,404_YD　All Rights Reserved.</p>
+          <p id="footer">© 404_YD　All Rights Reserved.</p>
         </div>
         <div class="right-content">
           <!-- 右側の要素 -->

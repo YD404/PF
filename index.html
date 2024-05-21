@@ -6,25 +6,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="items/icon.ico" type="image/x-icon">
+    <link rel="icon" href="items/title.ico" type="image/x-icon">
     <title>404ForWorks</title>
 </head>
 
 <body>
     <div id="loading-container">
-        <div class="imgiPhone"><img src="items/logo.avif" width="25%" alt="Logo" class="logo"></div>
-        <div class="loading-animation"></div>
+        <div class="imgiPhone"><img src="items/icon.avif" alt="Logo" class="icon"></div>
     </div>
 
     <!-- <div id="site-content" style="display: none;">
         <div class="background-video">
             <video src="items/background.mp4" autoplay loop muted></video>
         </div> -->
-        <header><!-- テンプレートを読み込む -->
-            <!-- <div id="menu-container"></div>
+    <header>
+        <!-- <div id="menu-container"></div>
             <script>
                 // テンプレートを読み込み、#menu-containerに追加する
                 fetch('html/menu-template.html')
@@ -33,35 +31,25 @@
                         document.getElementById('menu-container').innerHTML = data;
                     });
             </script> -->
-        </header>
-        <div class="content">
-            <div class="containerIndex">
-                <img src="your-image-source-1.jpg" alt="Description Image 1">
-                <div class="text-content">
-                    <p class="titleText">Title Text 1</p>
-                    <p class="bodyText">Body Text 1</p>
-                </div>
+    </header>
+    <div class="content">
+        <hr>
+        <hr>
+        <div class="textBox">
+            <div class="title">
+                <h1>404ForWorks</h1>
+                <h3>作ったものとかのまとめサイト</h3>
             </div>
-
-            <div class="containerIndex">
-                <img src="your-image-source-2.jpg" alt="Description Image 2">
-                <div class="text-content">
-                    <p class="titleText">Title Text 2</p>
-                    <p class="bodyText">Body Text 2</p>
-                </div>
+            <div class="main-text">
+                <h1><a href="videos.html">動画系</a></h1>
+                <h1><a href="web.html">ウェブ系</a></h1>
+                <h1><a href="images.html">画像系</a></h1>
+                <h1><a href="about.html">その他</a></h1>
             </div>
-
-            <div class="containerIndex">
-                <img src="your-image-source-3.jpg" alt="Description Image 3">
-                <div class="text-content">
-                    <p class="titleText">Title Text 3</p>
-                    <p class="bodyText">Body Text 3</p>
-                </div>
-            </div>
-
         </div>
     </div>
-    <!-- <div id="footer-container"></div> -->
+    <div id="footer-container"></div>
+    </div>
 </body>
 <script src="script.js"></script>
 
