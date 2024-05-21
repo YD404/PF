@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="items/icon.ico" type="image/x-icon">
+    <title>カニ娘公式サイト 制作者</title>
+</head>
+
+<body>
+    <!-- <div class="background-video">
+        <video src="items/background.webm" autoplay loop muted></video>
+    </div> -->
+    <header><!-- テンプレートを読み込む -->
+        <div id="menu-container"></div>
+        <script>
+            // テンプレートを読み込み、#menu-containerに追加する
+            fetch('html/menu-template.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('menu-container').innerHTML = data;
+                });
+        </script>
+    </header>
+    <div class="content">
+        <hr>
+        <div class="textBox">
+            <div class="title">
+                <h1>動画系</h1>
+                <div class="main-text">
+                    <p>音声合成を使った解説動画や、実写映画・MVの共同制作などを行っております。</p>
+                    <div class="container">
+                        <iframe src="https://www.youtube.com/embed/oi5wHdUmXJ4?si=MbxnX4Hylkku200w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="text-content">
+                            <p class="titleText">動画の色を華やかにする秘訣～色調補正とグラデーションについて～</p>
+                            <p class="timeText">制作時期｜2024年04月</p>
+                            <p class="bodyText">オリジナルキャラクター「カニ娘」の宣伝用ホームページ。<br>
+                                キャラクターの絵や声は別の方が作成。</p>
+                            <p class="useText">使用ツール｜AviUtl</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <iframe src="https://www.youtube.com/embed/Tq8UwIODUuk?si=anq3ywPUeNpAGYQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="text-content">
+                            <p class="titleText">魔法MV</p>
+                            <p class="timeText">制作時期｜2022年02月</p>
+                            <p class="bodyText">共同製作のミュージックビデオ。<br>
+                            編集と一部3DCG、撮影協力を担当した。2024年07月に新たなミュージックビデオを共同製作予定。</p>
+                            <p class="useText">使用ツール｜AviUtl、blender</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <iframe src="https://www.youtube.com/embed/qouNOx5on-8?si=j0OS0TVypecxsGly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="text-content">
+                            <p class="titleText">野鳥観察</p>
+                            <p class="timeText">制作時期｜2023年03月</p>
+                            <p class="bodyText">実写合成に重点を置いた実験映像。<br>
+                                ただ合成するだけでなく、色調やエフェクトを付けてより違和感のない合成を目指している。</p>
+                            <p class="useText">使用ツール｜AviUtl、AfterEffects、Runway</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-container"></div>
+</body>
+<script src="script.js"></script>
+
+</html>
